@@ -1,0 +1,101 @@
+1.	git init:
+•	Initializes a new Git repository.
+2.	git clone [repository]:
+•	Creates a copy of a remote repository on your local machine.
+3.	git add [file]:
+•	Adds changes in a file to the staging area.
+4.	git add .:
+•	Adds all changes to the staging area.
+5.	git commit -m "[message]":
+•	Commits changes with a descriptive message.
+6.	git status:
+•	Shows the status of changes as untracked, modified, or staged.
+7.	git log:
+•	Displays the commit history.
+8.	git branch:
+•	Lists all local branches.
+9.	git branch [branch_name]:
+•	Creates a new branch.
+10.	git checkout [branch_name]:
+•	Switches to the specified branch.
+11.	git merge [branch_name]:
+•	Merges changes from one branch into another.
+12.	git remote -v:
+•	Displays the remote repositories linked to your local repository.
+13.	git fetch:
+•	Fetches changes from a remote repository.
+14.	git pull:
+•	Fetches and merges changes from a remote repository.
+15.	git push [remote] [branch]:
+•	Pushes changes to a remote repository.
+16.	git diff:
+•	Shows the differences between the working directory and the last commit.
+17.	git reset [file]:
+•	Unstages changes for a specific file.
+18.	git reset --hard [commit]:
+•	Resets the entire working directory to a specific commit.
+19.	git tag [tag_name]:
+•	Creates a lightweight tag at the current commit.
+20.	git blame [file]:
+•	Shows who last modified each line of a file.
+21.	git stash:
+•	Temporarily saves changes that are not ready to be committed.
+22.	git stash apply:
+•	Applies the last stash to the working directory.
+23.	git remote add [remote_name] [remote_url]:
+•	Adds a new remote repository.
+24.	git remote rm [remote_name]:
+•	Removes a remote repository.
+25.	git log --oneline:
+•	Displays a compact log with one line per commit.
+26.	git log -n [number]:
+•	Limits the number of commits displayed in the log.
+27.	git show [commit]:
+•	Displays the changes introduced by a specific commit.
+28.	git cherry-pick [commit]:
+•	Applies changes from a specific commit to the current branch.
+29.	git rebase [branch_name]:
+•	Reapplies commits on top of another branch.
+30.	git remote show [remote]:
+•	Displays more information about a remote repository.
+31.	git fetch --prune:
+•	Removes remote branches that have been deleted on the remote repository.
+32.	git clean -n:
+•	Shows a list of untracked files that would be removed by git clean.
+33.	git clean -f:
+•	Removes untracked files.
+34.	git remote rename [old_name] [new_name]:
+•	Renames a remote repository.
+35.	git revert [commit]:
+•	Creates a new commit that undoes changes made in a specific commit.
+36.	git log --graph --oneline --all:
+•	Displays a concise graphical representation of the commit history.
+37.	git commit --amend:
+•	Modifies the last commit.
+38.	git reflog:
+•	Shows a log of all changes to local branches, even if they were later deleted.
+39.	git bisect start:
+•	Initiates a binary search to find a specific commit that introduced a bug.
+40.	git bisect bad:
+•	Marks the current commit as bad.
+41.	git bisect good [commit]:
+•	Marks a specific commit as good.
+42.	git bisect reset:
+•	Ends the binary search and returns to the original branch.
+43.	git remote set-url [remote_name] [new_url]:
+•	Changes the URL of a remote repository.
+44.	git log --author="[author_name]":
+•	Displays commits by a specific author.
+45.	git log --since="[date]":
+•	Displays commits since a specific date.
+46.	git log --grep="[pattern]":
+•	Displays commits with a specific commit message pattern.
+47.	git log -- [file]:
+•	Displays commits that modified a specific file.
+48.	git ls-files:
+•	Lists all files in the index.
+49.	git submodule init:
+•	Initializes submodules defined in the repository.
+50.	git submodule update:
+•	Updates submodules to the latest commit.
+
